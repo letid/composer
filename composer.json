@@ -1,0 +1,14 @@
+{
+    "name": "my/app",
+    "require": {
+        "letid/framework": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {},
+        "psr-4": {
+            "app\\": "config/"
+        },
+        "classmap": [],
+        "files": []
+    }
+}

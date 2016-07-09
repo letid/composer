@@ -1,0 +1,35 @@
+trait Hello {
+    public function sayHello() {
+        echo 'Hello ';
+    }
+}
+trait World {
+    public function sayWorld() {
+        echo 'World!';
+    }
+}
+trait HelloWorld {
+    use Hello, World;
+}
+class MyHelloWorld {
+    use HelloWorld;
+}
+---
+trait Score {
+
+}
+class Info {
+    use Score
+}
+abstract class Application extends Info {
+
+}
+trait Responsive {
+    use Application;
+}
+class page {
+    use Responsive;
+}
+class home extend page {
+
+}
