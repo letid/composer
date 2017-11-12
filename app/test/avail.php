@@ -1,7 +1,7 @@
 <?php
 namespace app
 {
-    class avail extends \letId\support\avail
-    {
-    }
+  class avail extends \letId\request\avail
+  {
+  }
 }
