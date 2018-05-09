@@ -375,7 +375,7 @@ class sign extends mapController
       // )
     );
 
-    // $db = app\avail::$database->select()->from('users_desc')->where('userid',app\avail::$user->userid)->execute()->toArray();
+    // $db = app\avail::$database->select()->from('users_desc')->where('userid',app\avail::$user->userid)->execute()->fetchAll();
     // // print_r($db);
     // if ($db->rows) {
     //     // print_r($db->rows);
